@@ -1,0 +1,20 @@
+{
+  "name": "simple-schedule-app",
+  "version": "1.0.0",
+  "description": "A simple web application for managing daily schedules.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
